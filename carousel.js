@@ -112,7 +112,7 @@ window.addEventListener('resize', () => {
 Render
 --------------------*/
 const render = () => {
-  requestAnimationFrame(render)
+  window.requestAnimationFrame(render)
   y = lerp(y, scrollY, .1)
   dispose(y)
   
@@ -125,24 +125,18 @@ const render = () => {
     scale: 1 - Math.min(100, Math.abs(scrollSpeed)) * 0.003
   })
 }
-render()
+window.requestAnimationFrame(render);
 
 
 let appendPhotos = gsap.utils.toArray('.second-carousel-card');
 appendPhotos.forEach((card) => {
     const image =  card.querySelector('.second-carousel-card'),
     tl = gsap.timeline({paused: true});
-    tl.set(card, {autoAlpha: 1});
+    tl.set(card, {autoAlpha: 0.1});
     tl.from(card, 1.5, {
         yPercent: 100,
         ease: 'power2',
         opacity: 0
-    });
-    tl.from(image, 2.5, {
-        xPercent: 100,
-        scale: 1.3,
-        delay: -1.5,
-        ease: 'power2'
     });
     card.animation = tl;
 })
