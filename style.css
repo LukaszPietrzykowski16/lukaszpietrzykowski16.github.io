@@ -476,7 +476,23 @@ textarea {
   background-color: rgb(21, 21, 21);
 }
 
+
+
 @media (max-width: 1050px) {
+  .my-work-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+  }
+  .my-work-card {
+    margin-bottom: 40px;
+    width: 80vw;
+    height: 80vh;
+  }
+
+
   .second-carousel-card {
     width: 40vw !important;
     height: 100% !important;
