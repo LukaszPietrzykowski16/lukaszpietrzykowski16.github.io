@@ -89,6 +89,7 @@ button {
 
 .my-work-card {
   display: flex;
+  text-align: center;
   flex-wrap: wrap;
   z-index: 1;
   width: 30vw;
@@ -103,8 +104,24 @@ button {
 }
 
 .my-work-card h3 {
+  margin: 0 auto;
   padding-top: 20px;
   text-align: center;
+}
+
+.icon-github-circled {
+  color: white;
+  font-size: 4em;
+}
+
+.icon-github-circled.black {
+  color: rgb(0, 0, 0);
+  font-size: 4em;
+}
+
+.icon-linkedin {
+  color: white;
+  font-size: 4em;
 }
 
 .my-work-card:hover {
@@ -246,7 +263,10 @@ canvas { width:50vw; height: 50vh; display: block; }
 
 .carousel-footer-logo{
   width: 4vw;
- 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
  
 }
 
