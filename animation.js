@@ -11,8 +11,8 @@ const myWorkDiv = document.querySelectorAll('.my-work-card');
 appendPhotos.forEach((card) => {
     const image =  card.querySelector('.my-work-card'),
     tl = gsap.timeline({paused: true});
-    tl.set(card, {autoAlpha: 0.1});
-    tl.from(card, 1.5, {
+    tl.set(card, {autoAlpha: 0.6});
+    tl.from(card, 0.6, {
         yPercent: 100,
         ease: 'power2',
         opacity: 0

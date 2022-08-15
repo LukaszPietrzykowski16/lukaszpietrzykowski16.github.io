@@ -102,6 +102,11 @@ button {
   transition: 0.5s;
 }
 
+.my-work-card h3 {
+  padding-top: 20px;
+  text-align: center;
+}
+
 .my-work-card:hover {
   background-color:  rgb(82, 18, 142);
 }
@@ -247,6 +252,7 @@ canvas { width:50vw; height: 50vh; display: block; }
 
 .white-github-logo {
   display: flex;
+  width: 100%;
   justify-content: center;
   align-items: center;
   padding-top: 20px;
@@ -254,10 +260,14 @@ canvas { width:50vw; height: 50vh; display: block; }
 
 .second-carousel-card-h3 {
   padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .white-github-logo img {
-  width: 40%;
+  width: 100%;
 }
 
 .second-carousel-card h3 {
@@ -270,7 +280,12 @@ canvas { width:50vw; height: 50vh; display: block; }
 }
 
 .bar-sub {
+  color: white;
   margin-top: 10px;
+}
+
+.bar-sub a {
+  color: white;
 }
 
 #portfolio{
@@ -454,6 +469,9 @@ input[type=submit] {
   cursor: pointer;
 }
 
+a {
+  text-decoration: none;
+}
 
 textarea {
   width: 100%;
