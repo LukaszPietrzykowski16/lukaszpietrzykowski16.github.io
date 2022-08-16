@@ -8,6 +8,18 @@ let appendPhotos = gsap.utils.toArray('.my-work-card');
 
 const myWorkDiv = document.querySelectorAll('.my-work-card');
 
+
+gsap.from(myWorkDiv, {scrollTrigger: {
+    trigger: myWorkDiv,
+    toggleActions: 'play none none none'},
+    y: 200,
+    duration: 1,
+    opacity: 0
+  })
+
+
+
+/*
 appendPhotos.forEach((card) => {
     const image =  card.querySelector('.my-work-card'),
     tl = gsap.timeline({paused: true});
@@ -25,4 +37,4 @@ ScrollTrigger.batch(appendPhotos, {
     e.animation.delay(i * 0.2).restart(true)),
     once: true
 })
-
+*/

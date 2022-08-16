@@ -390,6 +390,8 @@ canvas { width:50vw; height: 50vh; display: block; }
   height: 50vh;
 }
 
+
+
 .subsection-2 {
   display: flex;
   justify-content: space-around;
@@ -672,5 +674,22 @@ textarea {
 @media (max-width: 400px) {
   .technology-container {
     margin-bottom: 90px;
+  }
+}
+
+.path {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+
+  animation: dash 5s linear both;
+}
+
+@keyframes dash {
+  0% {
+    stroke-dashoffset: 1;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
   }
 }
