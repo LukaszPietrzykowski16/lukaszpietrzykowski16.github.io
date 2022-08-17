@@ -522,9 +522,17 @@ textarea {
   background-color: rgb(21, 21, 21);
 }
 
-
+svg {
+  width: 50vw;
+  height: 50vh;
+}
 
 @media (max-width: 1050px) {
+  svg {
+    width: 80vw;
+    height: 50vh;
+  }
+
   .technology {
     margin-top: 20px;
   }
