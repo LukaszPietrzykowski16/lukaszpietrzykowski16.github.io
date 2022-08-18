@@ -1,3 +1,4 @@
-[] i need to make animations more smoove
-[] i need to link to the projects
-[] other project section and white github logo bigger
+[] animation on buttons and icons (make it cool but not muhc)
+[] aria labels 
+[] make it form work better 
+[] clean up this mess
