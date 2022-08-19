@@ -1,4 +1,4 @@
 [] animation on buttons and icons (make it cool but not muhc)
 [] aria labels 
-[] make it form work better 
-[] clean up this mess
+[X] make it form work better 
+[X] clean up this mess
