@@ -102,6 +102,13 @@ button {
   margin-left: 30px;
 }
 
+.my-github {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
 h5{ 
   font-size: 2em;
 }
@@ -115,7 +122,24 @@ h5{
 .icon-github-circled {
   color: white;
   font-size: 4em;
+  transition: 0.8s;
 }
+
+.icon-github-circled:hover {
+  color:  rgb(21, 21, 21);
+  
+}
+
+.icon-github-circled.large {
+  color: white;
+  font-size: 10em;
+}
+
+.icon-github-circled.large:hover {
+  color:  rgb(21, 21, 21);
+ 
+}
+
 
 .icon-github-circled.black {
   color: rgb(0, 0, 0);
@@ -125,6 +149,11 @@ h5{
 .icon-linkedin {
   color: white;
   font-size: 4em;
+}
+
+.icon-linkedin:hover {
+  color:  rgb(21, 21, 21);
+  transition: 0.8s;
 }
 
 .my-work-card:hover {
