@@ -363,6 +363,7 @@ canvas { width:50vw; height: 50vh; display: block; }
 
 
 .three-d {
+  
   width: 50vw;
   height: 50vh;
   text-align: center;
@@ -560,14 +561,14 @@ textarea {
 }
 
 svg {
-  width: 50vw;
-  height: 50vh;
+  width: 80%;
+  height: 80%;
 }
 
 @media (max-width: 1050px) {
   svg {
-    width: 80vw;
-    height: 50vh;
+    width: 90%;
+  height: 90%;
   }
 
   .technology {
@@ -599,7 +600,7 @@ svg {
 
 
   .technology-wannabe  {
-    width: 70vw;
+    width: 90vw;
     
   }
 
@@ -668,7 +669,10 @@ svg {
   canvas { width:90vw; height: 50vh; display: block; }
 
   .three-d {
-    width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
     height: 50vh;
     text-align: center;
     pointer-events: none; 
@@ -718,7 +722,7 @@ svg {
 
 @media (max-width: 400px) {
   .technology-container {
-    margin-bottom: 90px;
+    margin-bottom: 160px;
   }
 }
 
