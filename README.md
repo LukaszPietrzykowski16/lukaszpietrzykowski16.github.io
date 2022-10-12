@@ -1,7 +1,7 @@
 
 # lukaszpietrzykowski16.github.io - A portfolio website
 
-<img src="./image2.PNG">/
+<img src="./image2.PNG">
 
 Check out live preview: 
 <a href="lukaszpietrzykowski16.github.io"> Link to the website! </a>
