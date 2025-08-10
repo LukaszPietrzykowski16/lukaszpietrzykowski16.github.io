@@ -3,7 +3,7 @@ import { ScrollTrigger } from "gsap/all";
 
 gsap.registerPlugin(ScrollTrigger);
 
-const myWorkDiv = document.querySelectorAll(".my-work-card");
+const myWorkDiv = document.querySelectorAll(".card");
 
 gsap.from(myWorkDiv, {
   scrollTrigger: {
