@@ -28,6 +28,6 @@ async function frameLooper() {
   } else {
     clearTimeout(timer);
   }
-  let loopTimer = setTimeout(frameLooper, 30); /* change 70 for speed */
+  let loopTimer = setTimeout(frameLooper, 30);
 }
 frameLooper();
