@@ -5,4 +5,7 @@ export default defineConfig({
   optimizeDeps: {
     include: ["gsap"],
   },
+  build: {
+    outDir: "docs",
+  },
 });
