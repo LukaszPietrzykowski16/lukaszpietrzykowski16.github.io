@@ -1,4 +1,7 @@
 import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/all";
+
+gsap.registerPlugin(ScrollTrigger);
 
 const nameH1 = document.querySelector(".name h1");
 
@@ -31,3 +34,15 @@ async function frameLooper() {
   let loopTimer = setTimeout(frameLooper, 30);
 }
 frameLooper();
+
+const myWorkDiv = document.querySelectorAll(".card");
+
+gsap.from(myWorkDiv, {
+  scrollTrigger: {
+    trigger: myWorkDiv,
+    toggleActions: "play none none none",
+  },
+  y: 200,
+  duration: 1,
+  opacity: 0,
+});

@@ -642,6 +642,27 @@ textarea {
   margin: 0;
 }
 
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 24px;
+}
+
+.contact-icons {
+  display: flex;
+  gap: 16px;
+}
+
+.contact-letscontact {
+  font-size: 2rem;
+}
+
+.contact-email {
+  font-size: 1.6rem;
+  overflow-wrap: break-word;
+}
+
 @media (max-width: 768px) {
   .card-technology {
     width: 100%;
@@ -652,6 +673,14 @@ textarea {
     padding-top: 20px;
     padding-bottom: 40px;
     padding-inline: 20px;
+  }
+
+  .contact-letscontact {
+    font-size: 1.5rem;
+  }
+
+  .contact-email {
+    font-size: 1rem;
   }
 }
 
